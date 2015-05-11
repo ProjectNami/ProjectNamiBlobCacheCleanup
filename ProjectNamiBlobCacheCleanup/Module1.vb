@@ -34,7 +34,7 @@ Module Module1
             End Try
 
         Catch ex As Exception
-            'Do Nothing
+            Console.Out.WriteLine("ERROR - " & ex.Message & ex.StackTrace)
         End Try
     End Sub
 
